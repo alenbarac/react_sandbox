@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import StateObject from './components/stateObject'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,8 @@ function App() {
         <button onClick={() => setCount((count) => initial_value)}>Reset</button>
         <button onClick={() => setCount((count) => count - 1)}>Decrement </button>
         <div>{count}</div>
+
+        <StateObject />
       </div>
     </>
   )
