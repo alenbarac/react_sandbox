@@ -15,7 +15,6 @@ const StateObject = () => {
       />
       <h3>your Firstname is - {name.firstName}</h3>
       <h3>your LastName is - {name.lastName}</h3>
-      <h4>{JSON.stringify(name)}</h4>
     </form>
   )
 }
