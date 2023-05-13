@@ -6,6 +6,8 @@ import StateObject from './components/stateObject'
 import StateArray from './components/stateArray'
 import HookMouse from './components/hookMouse'
 import MouseContainer from './components/MouseContainer'
+import IntervalCount from './components/intervalCount'
+import DataFetching from './components/DataFetching'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +24,12 @@ function App() {
     <>
       <h1>React sandbox</h1>
       <div className="card">
+        <DataFetching />
+      </div>
+      {/* <div className="card">
+        <IntervalCount />
+      </div> */}
+      {/* <div className="card">
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       </div>
       <div className="card">
@@ -36,7 +44,7 @@ function App() {
         STATE ARRAY
         <StateArray />
         <MouseContainer />
-      </div>
+      </div> */}
     </>
   )
 }
