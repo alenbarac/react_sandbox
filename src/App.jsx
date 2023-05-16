@@ -8,6 +8,7 @@ import HookMouse from './components/hookMouse'
 import MouseContainer from './components/MouseContainer'
 import IntervalCount from './components/intervalCount'
 import DataFetching from './components/DataFetching'
+import CounterReducer from './components/CounterReducer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,7 @@ function App() {
     <>
       <h1>React sandbox</h1>
       <div className="card">
-        <DataFetching />
+        <CounterReducer />
       </div>
       {/* <div className="card">
         <IntervalCount />
