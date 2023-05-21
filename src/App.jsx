@@ -12,6 +12,8 @@ import CounterReducer from './components/CounterReducer'
 import Counter2Reducer from './components/Counter2Reducer'
 import DataFetchReducer from './components/DataFetchReducer'
 import MemoCounter from './components/memoCounter'
+import FocusInput from './components/FocusInput'
+import RefTimer from './components/refTimer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +30,8 @@ function App() {
     <>
       <h1>React sandbox</h1>
       <div className="card">
-        <MemoCounter />
+        <RefTimer />
+        {/* <FocusInput /> */}
         {/*  <DataFetchReducer /> */}
         {/* <Counter2Reducer /> */}
       </div>
