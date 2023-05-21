@@ -11,6 +11,7 @@ import DataFetching from './components/DataFetching'
 import CounterReducer from './components/CounterReducer'
 import Counter2Reducer from './components/Counter2Reducer'
 import DataFetchReducer from './components/DataFetchReducer'
+import MemoCounter from './components/memoCounter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,8 @@ function App() {
     <>
       <h1>React sandbox</h1>
       <div className="card">
-        <DataFetchReducer />
+        <MemoCounter />
+        {/*  <DataFetchReducer /> */}
         {/* <Counter2Reducer /> */}
       </div>
       {/* <div className="card">
