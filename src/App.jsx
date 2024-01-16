@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container mx-auto px-4 mt-20 ">
         <div class="grid grid-cols-12 gap-3">
-          <div class="col-span-5">
+          <div class="col-span-4">
             <div className="card bg-black shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Create Post</h2>
@@ -15,7 +15,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div class="col-span-7">
+          <div class="col-span-8">
             <div className="card bg-black shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">
